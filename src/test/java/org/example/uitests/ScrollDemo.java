@@ -28,7 +28,7 @@ public class ScrollDemo extends BaseTestClass {
 
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='accept-choices']"))).click();
 
-        int a = 2;
+        int a = 1;
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
