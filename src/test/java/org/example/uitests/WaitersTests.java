@@ -51,7 +51,7 @@ public class WaitersTests extends BaseTestClass {
         });
 
         Assert.assertEquals(driver.findElement(By.cssSelector("#finish > h4")).getText(), "Hello World!");
-        Assert.assertEquals(driver.findElement(By.cssSelector("#finish > h4")).getText(), "Change test");
+        Assert.assertEquals(driver.findElement(By.cssSelector("#finish > h4")).getText(), "Changes test");
 
     }
 
